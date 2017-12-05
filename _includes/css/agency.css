@@ -216,6 +216,13 @@ fieldset[disabled] .btn-xl.active {
     transition: all ease .35s;
 }
 
+a.navbar-brand.page-scroll {
+    background-image: url('img/devils-small-logo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 180px;
+}
+
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
     outline: 0;
@@ -269,7 +276,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url('{{ site.baseurl }}/img/header-bg.jpg');
+    background-image: url('{{ site.baseurl }}/img/random-team-bg.png');
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -374,7 +381,7 @@ section h3.section-subheading {
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
-    background: rgba(254,209,54,.9); /* Fallback when no plugin support */
+    background: rgba(137,0,0,.9); /* Fallback when no plugin support */
     background: rgba({{ site.data.template.color.primary | hex_to_rgb | join: ',' }}, .9);
 }
 
