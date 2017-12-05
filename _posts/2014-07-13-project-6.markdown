@@ -1,11 +1,11 @@
 ---
-title: Round Icons
-subtitle: Graphic Design
+title: Victoire en équipe
+subtitle: Ça se fête !
 layout: default
 modal-id: 6
 date: 2014-07-15
-img: roundicons.png
-thumbnail: roundicons-thumbnail.png
+img: galerie6.jpg
+thumbnail: galerie6.jpg
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap

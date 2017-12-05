@@ -1,11 +1,11 @@
 ---
-title: Treehouse
-subtitle: Website Design
+title: Après le match
+subtitle: Un p'tit selfie ?
 layout: default
 modal-id: 4
 date: 2014-07-15
-img: treehouse.png
-thumbnail: treehouse-thumbnail.png
+img: galerie4.jpg
+thumbnail: galerie4.jpg
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
