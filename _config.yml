@@ -7,40 +7,19 @@ email: your-email@domain.com
 description: "Site officiel de la Team Devils"
 
 
-# Team names, titles and social links
-people:
-- name: Sébastien Grézlak
-  pic: 1
-  position: Capitain
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
+# Collections
+collections:
+  members:
+    title: Members
+    output: true
+    permalink: /members/:path/
 
-- name: Antoine Sobral
-  pic: 2
-  position: Attaquant
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: linkedin
-      url: #
-
-- name: Vincent Gautier
-  pic: 3
-  position: Capitain
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: google-plus
-      url: #
+defaults:
+  - scope:
+      path: ""
+      type: "members"
+    values:
+      pic: default.png
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:

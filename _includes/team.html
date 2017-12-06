@@ -8,11 +8,14 @@
                 </div>
             </div>
             <div class="row">
-                {% for member in site.people %}
-                <div class="col-sm-4">
+                {% for member in site.members %}
+                <div class="col-sm-3">
                     <div class="team-member">
-                        <img src="img/team/{{ member.pic }}.jpg" class="img-responsive img-circle" alt="">
-                        <h4>{{ member.name }}</h4>
+                        <div class="member-skills">
+                          {{ member.number }}
+                        </div>
+                        <img src="img/team/{{ member.pic }}" class="img-responsive img-circle" alt="">
+                        <h4>{{ member.firstname }} {{ member.lastname }}</h4>
                         <p class="text-muted">{{ member.position }}</p>
                         <ul class="list-inline social-buttons">
                             {% for network in member.social %}
