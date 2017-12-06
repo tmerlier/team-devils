@@ -6,7 +6,6 @@ title: Team Devils
 email: your-email@domain.com
 description: "Site officiel de la Team Devils"
 
-
 # Collections
 collections:
   members:
@@ -20,6 +19,40 @@ defaults:
       type: "members"
     values:
       pic: default.png
+
+prizes:
+  - year: 2013
+    name: OPEN BULLDOGG
+    ranking: 3ème et 6ème
+    record: true
+  - year: 2014
+    name: OPEN NO LIMIT
+    ranking: 3ème
+    record: true
+  - year: 2014
+    name: NORMANDIE PAINTBALL LIGUE
+    ranking: 8ème
+    record: false
+  - year: 2015
+    name: Trophée TOXIC
+    ranking: 8ème de la poule et 25ème place
+    record: false
+  - year: 2015
+    name: NORMANDIE PAINTBALL LIGUE
+    ranking: 7ème place
+    record: false
+  - year: 2016
+    name: Trophée TOXIC
+    ranking: 9ème de la poule et 20ème place
+    record: false
+  - year: 2017
+    name: Trophée TOXIC
+    ranking: 4ème et 6ème de la poule amateur
+    record: true
+  - year: 2017
+    name: CHAMPIONS PAINTBALL SERIES
+    ranking: 8ème
+    record: false
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
@@ -36,8 +69,8 @@ social:
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+  - line: Impasse des clos
+  - line: 27000 Évreux
 
 # Build settings
 markdown: kramdown

@@ -665,6 +665,20 @@ section h3.section-subheading {
     margin-top: 0;
 }
 
+.team-member .member-skills {
+  display: none;
+  position: absolute;
+  height: 240px;
+  left: 27px;
+  width: 239px;
+  border-radius: 50%;
+  background: #ffffff7a;
+  font-size: 100px;
+  font-weight: bolder;
+  text-align: center;
+  padding-top: 45px;
+}
+
 aside.clients img {
     margin: 50px auto;
 }
