@@ -1,0 +1,27 @@
+<!-- Sponsors Section -->
+    <section class="sponsors">
+        <div class="container">
+          <div class="row">
+              <div class="col-lg-12 text-center">
+                  <h2 class="section-heading">Nos sponsors</h2>
+                  <h3 class="section-subheading text-muted">Merci à ceux qui nous soutiennent</h3>
+              </div>
+          </div>
+          <div class="sponsors-list">
+            {% for sponsor in site.sponsors %}
+              <div class="sponsor">
+                <a href={{ sponsor.href }}>
+                  <img src={{ sponsor.logo }} alt={{ sponsor.name }}>
+                </a>
+              </div>
+            {% endfor %}
+          </div>
+          <div class="clearfix"></div>
+          <div class="row">
+            <div class="col-lg-12 text-center">
+              <div id="success"></div>
+              <a href="mailto:{{ site.email }}?subject=Je souhaites devenir sponsor !"><button class="btn btn-xl">Devenir sponsor</button></a>
+            </div>
+          </div>
+        </div>
+    </section>

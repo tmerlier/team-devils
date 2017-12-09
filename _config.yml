@@ -3,7 +3,7 @@ baseurl:
 
 # Site settings
 title: Team Devils
-email: your-email@domain.com
+email: teamdevils@gmail.fr
 description: "Site officiel de la Team Devils"
 
 # Collections
@@ -12,6 +12,10 @@ collections:
     title: Members
     output: true
     permalink: /members/:path/
+  sponsors:
+    title: Sponsors
+    output: true
+    permalink: /sponsors/:path/
 
 defaults:
   - scope:
