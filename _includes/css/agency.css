@@ -722,6 +722,10 @@ section#team {
   height: 125px;
 }
 
+.promo {
+  margin-top: 4em;
+}
+
 section#contact {
     background-color: #222;
     background-image: url('{{ site.baseurl }}/img/map-image.png');
@@ -790,6 +794,18 @@ section#contact .text-danger {
 footer {
     padding: 25px 0;
     text-align: center;
+    background: #111;
+    color: #FFF;
+}
+
+footer a {
+  color: #ea0404;
+}
+
+@media(min-width: 992px) {
+  footer .fb-share-button {
+    margin-top: 10px;
+  }
 }
 
 footer span.copyright {
