@@ -679,7 +679,7 @@ section#team {
 
 .team-list {
   display: grid;
-  grid-template-columns: repeat(auto-fit,minmax(240px,1fr));
+  grid-template-columns: repeat(auto-fit,minmax(241px,1fr));
   grid-row-gap: 3em;
   text-align: center;
   -webkit-align-items: center;
