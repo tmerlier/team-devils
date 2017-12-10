@@ -12,9 +12,9 @@
               <div class="sponsor">
                 <a href={{ sponsor.href }}>
                   {% if sponsor.name == "Sinova" %}
-                    <img style="height: 90px;" src={{ sponsor.logo }} alt={{ sponsor.name }}>
+                    <img style="height: 90px;" src="{{ site.baseurl }}{{ sponsor.logo }}" alt={{ sponsor.name }}>
                   {% else %}
-                    <img src={{ sponsor.logo }} alt={{ sponsor.name }}>
+                    <img src="{{ site.baseurl }}{{ sponsor.logo }}" alt={{ sponsor.name }}>
                   {% endif %}
                 </a>
               </div>
