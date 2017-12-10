@@ -1,5 +1,5 @@
 <!-- Sponsors Section -->
-    <section class="sponsors">
+    <section id="sponsors">
         <div class="container">
           <div class="row">
               <div class="col-lg-12 text-center">
@@ -11,7 +11,11 @@
             {% for sponsor in site.sponsors %}
               <div class="sponsor">
                 <a href={{ sponsor.href }}>
-                  <img src={{ sponsor.logo }} alt={{ sponsor.name }}>
+                  {% if sponsor.name == "Sinova" %}
+                    <img style="height: 90px;" src={{ sponsor.logo }} alt={{ sponsor.name }}>
+                  {% else %}
+                    <img src={{ sponsor.logo }} alt={{ sponsor.name }}>
+                  {% endif %}
                 </a>
               </div>
             {% endfor %}

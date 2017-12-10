@@ -703,6 +703,10 @@ section#team {
   padding-top: 45px;
 }
 
+#sponsors button {
+  margin-top: 3em;
+}
+
 .sponsors-list {
   display: grid;
   grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
@@ -716,10 +720,6 @@ section#team {
 
 .sponsor img {
   height: 125px;
-}
-
-.sponsors button {
-  margin-top: 3em;
 }
 
 section#contact {
